@@ -1,0 +1,62 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0px 2px;
+}
+th {
+  text-align: left;
+  vertical-align: top;
+}
+iframe {border:none;width:100%;}
+@media screen and (max-width: 992px) {
+  #cover {width:250px; height:auto;}
+  iframe {height: 513px;}
+}
+@media screen and (max-width: 600px) {
+  #cover {width:120px; height:auto;}
+  iframe {height: 300px;}
+}
+#vote {
+border: none;
+padding: 12px;
+background: black;
+color: white;
+border-radius: 8px;
+}
+#sinop {
+border: none;
+padding: 2px 6px;
+background: red;
+color: white;
+border-radius: 4px;
+}
+#myBtn {
+border: none;
+padding: 2px 6px;
+background: black;
+color: white;
+}
+#more {display: none;}
+#btnm {
+width: 100%;
+padding: 8px;
+background: blue;
+color: white;
+font-weight: bold;
+border: none;
+margin: 2px;
+}
+#btnm:hover{background:black;}
+#gen {
+background: green;
+color: white;
+padding: 2px;
+font-size: 12px;
+border-radius: 2px;
+}
